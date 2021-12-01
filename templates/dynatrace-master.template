@@ -664,7 +664,7 @@
                         },
                         "TemplateURL": {
                             "Fn::Sub": [
-                                "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/master/templates/dynatrace.template",
+                                "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/main/templates/dynatrace.template",
                                 {
                                     "S3Region": {
                                         "Fn::If": [
