@@ -320,6 +320,14 @@
                 },
                 "us-gov-west-1"
             ]
+        },
+        "ImageIdCondition": {
+            "Fn::Equals": [
+                {
+                    "Ref": "ImageId"
+                },
+                ""
+            ] 
         }
     },
     "Resources": {
@@ -545,12 +553,16 @@
                     "Ref": "DynatraceNodeProfile"
                 },
                 "ImageId": {
-                    "Fn::FindInMap": [
-                        "AWSAMIRegionMap",
-                        {
-                            "Ref": "AWS::Region"
-                        },
-                        "AMZNLINUXHVM"
+                    "Fn::If": [
+                        "ImageIdCondition",
+                        {"Fn::FindInMap": [
+                            "AWSAMIRegionMap",
+                            {
+                                "Ref": "AWS::Region"
+                            },
+                            "AMZNLINUXHVM"
+                        ]},
+                        {"Ref":"ImageId"}
                     ]
                 },
                 "SecurityGroupIds": [

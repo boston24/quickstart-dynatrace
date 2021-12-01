@@ -698,6 +698,9 @@
                     },
                     "VPCID": {
                         "Ref" : "VPCID"
+                    },
+                    "ImageId": {
+                        "Ref": "ImageId"
                     }
                 }
             }
@@ -785,6 +788,9 @@
                     },
                     "VPCID": {
                         "Ref" : "VPCID"
+                    },
+                    "ImageId": {
+                        "Ref": "ImageId"
                     }
                 }
             }
@@ -880,6 +886,9 @@
                     },
                     "VPCID": {
                         "Ref" : "VPCID"
+                    },
+                    "ImageId": {
+                        "Ref": "ImageId"
                     }
                 }
             }
@@ -968,6 +977,9 @@
                     },
                     "VPCID": {
                         "Ref" : "VPCID"
+                    },
+                    "ImageId": {
+                        "Ref": "ImageId"
                     }
                 }
             }
@@ -1056,6 +1068,9 @@
                     },
                     "VPCID": {
                         "Ref" : "VPCID"
+                    },
+                    "ImageId": {
+                        "Ref": "ImageId"
                     }
                 }
             }
@@ -1150,6 +1165,9 @@
                     },
                     "VPCID": {
                         "Ref" : "VPCID"
+                    },
+                    "ImageId": {
+                        "Ref": "ImageId"
                     }
                 }
             }
