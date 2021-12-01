@@ -622,7 +622,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}templates/dynatrace-node.template",
+                        "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/master/templates/dynatrace-node.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -712,7 +712,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}templates/dynatrace-node.template",
+                        "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/master/templates/dynatrace-node.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -803,7 +803,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}templates/dynatrace-node.template",
+                        "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/master/templates/dynatrace-node.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -901,7 +901,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}templates/dynatrace-node.template",
+                        "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/master/templates/dynatrace-node.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -992,7 +992,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}templates/dynatrace-node.template",
+                        "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/master/templates/dynatrace-node.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
@@ -1083,7 +1083,7 @@
             "Properties": {
                 "TemplateURL": {
                     "Fn::Sub": [
-                        "https://${QSS3BucketName}.${QSS3Region}.amazonaws.com/${QSS3KeyPrefix}templates/dynatrace-node.template",
+                        "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/master/templates/dynatrace-node.template",
                         {
                             "QSS3Region": {
                                 "Fn::If": [
