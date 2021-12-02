@@ -286,9 +286,6 @@
             "eu-central-1": {
                 "AMZNLINUXHVM": "ami-0ba441bdd9e494102"
             },
-            "eu-west-1": {
-                "AMZNLINUXHVM": "ami-0e61341fa75fcaa18"
-            },
             "eu-west-2": {
                 "AMZNLINUXHVM": "ami-050b8344d77081f4b"
             },
