@@ -611,7 +611,7 @@
                                 "Ref": "ImageId"
                             }
                         },
-                        "TemplateURL": "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/main/templates/dynatrace.template"
+                        "TemplateURL": "https://onprem-smoke-test-files.s3.amazonaws.com/quickstart-gov-region-test/dynatrace.template"
                     },
                     "Type": "AWS::CloudFormation::Stack"
          }

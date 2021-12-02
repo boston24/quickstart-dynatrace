@@ -620,7 +620,7 @@
         "DynatraceNode1" : {
             "Type": "AWS::CloudFormation::Stack",
             "Properties": {
-                "TemplateURL": "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/main/templates/dynatrace-node.template",
+                "TemplateURL": "https://onprem-smoke-test-files.s3.amazonaws.com/quickstart-gov-region-test/dynatrace-node.template",
                 "Parameters": {
                     "LicenseKey" : {
                         "Ref" : "LicenseKey"
@@ -697,7 +697,7 @@
             "DependsOn": "DynatraceNode1",
             "Condition" : "2NodeCondition",
             "Properties": {
-                "TemplateURL": "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/main/templates/dynatrace-node.template",
+                "TemplateURL": "https://onprem-smoke-test-files.s3.amazonaws.com/quickstart-gov-region-test/dynatrace-node.template",
                 "Parameters": {
                     "LicenseKey" : {
                         "Ref" : "LicenseKey"
@@ -775,7 +775,7 @@
             "DependsOn": "DynatraceNode2",
             "Condition" : "3NodeCondition",
             "Properties": {
-                "TemplateURL": "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/main/templates/dynatrace-node.template",
+                "TemplateURL": "https://onprem-smoke-test-files.s3.amazonaws.com/quickstart-gov-region-test/dynatrace-node.template",
                 "Parameters": {
                     "LicenseKey" : {
                         "Ref" : "LicenseKey"
@@ -860,7 +860,7 @@
             "DependsOn": "DynatraceNode3",
             "Condition" : "4NodeCondition",
             "Properties": {
-                "TemplateURL": "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/main/templates/dynatrace-node.template",
+                "TemplateURL": "https://onprem-smoke-test-files.s3.amazonaws.com/quickstart-gov-region-test/dynatrace-node.template",
                 "Parameters": {
                     "LicenseKey" : {
                         "Ref" : "LicenseKey"
@@ -938,7 +938,7 @@
             "DependsOn": "DynatraceNode4",
             "Condition" : "5NodeCondition",
             "Properties": {
-                "TemplateURL": "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/main/templates/dynatrace-node.template",
+                "TemplateURL": "https://onprem-smoke-test-files.s3.amazonaws.com/quickstart-gov-region-test/dynatrace-node.template",
                 "Parameters": {
                     "LicenseKey" : {
                         "Ref" : "LicenseKey"
@@ -1016,7 +1016,7 @@
             "DependsOn": "DynatraceNode5",
             "Condition" : "6NodeCondition",
             "Properties": {
-                "TemplateURL": "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/main/templates/dynatrace-node.template",
+                "TemplateURL": "https://onprem-smoke-test-files.s3.amazonaws.com/quickstart-gov-region-test/dynatrace-node.template",
                 "Parameters": {
                     "LicenseKey" : {
                         "Ref" : "LicenseKey"
