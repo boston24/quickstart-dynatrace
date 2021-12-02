@@ -611,20 +611,7 @@
                                 "Ref": "ImageId"
                             }
                         },
-                        "TemplateURL": {
-                            "Fn::Sub": [
-                                "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/main/templates/dynatrace.template",
-                                {
-                                    "S3Region": {
-                                        "Fn::If": [
-                                            "GovCloudCondition",
-                                            "s3-us-gov-west-1",
-                                            "s3"
-                                        ]
-                                    }
-                                }
-                            ]
-                        }
+                        "TemplateURL": "https://raw.githubusercontent.com/boston24/quickstart-dynatrace/main/templates/dynatrace.template"
                     },
                     "Type": "AWS::CloudFormation::Stack"
          }
