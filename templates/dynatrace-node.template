@@ -24,6 +24,14 @@
                 },
                 {
                     "Label": {
+                        "default": "Network configuration"
+                    },
+                    "Parameters": [
+                        "ImageId"
+                    ]
+                },
+                {
+                    "Label": {
                         "default": "Amazon EC2 configuration"
                     },
                     "Parameters": [
@@ -102,6 +110,9 @@
                 },
                 "VPCID": {
                     "default": "VPC ID"
+                },
+                "ImageId": {
+                    "default": "Image AMI based on a region"
                 }
             }
         }
@@ -236,6 +247,12 @@
         "VPCID": {
             "Description": "ID of the VPC (e.g., vpc-0343606e)",
             "Type": "AWS::EC2::VPC::Id"
+        },
+        "ImageId": {
+            "AllowedPattern": "ami-[0-9a-z]{17}",
+            "ConstraintDescription": "Image Id must be in the form ami-xxxxxxxxxxxxxxxxx",
+            "Description": "An Amazon EC2 image ID (leave empty to use a default value)",
+            "Type": "AWS::EC2::Image::Id" 
         }
     },
     "Rules": {

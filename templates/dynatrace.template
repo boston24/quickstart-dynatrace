@@ -147,6 +147,7 @@
                 },
                 "ImageId": {
                     "default": "Image AMI based on a region"
+                }
             }
         }
     },
