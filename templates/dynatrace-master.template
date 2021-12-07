@@ -350,11 +350,10 @@
             "Type": "String"
         },
         "ImageId": {
-            "AllowedPattern": "ami-[0-9a-z]{17}",
+            "AllowedPattern": "(ami-[0-9a-z]{17})|",
             "ConstraintDescription": "Image Id must be in the form ami-xxxxxxxxxxxxxxxxx",
             "Description": "An Amazon EC2 image ID (leave empty to use a default value)",
-            "Type": "AWS::EC2::Image::Id",
-            "Default": "" 
+            "Type": "AWS::EC2::Image::Id"
         }
     },
     "Conditions": {
